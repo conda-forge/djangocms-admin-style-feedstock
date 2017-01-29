@@ -11,6 +11,18 @@ Summary: Adds pretty CSS styles for the django CMS admin interface.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/djangocms-admin-style-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/djangocms-admin-style-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/djangocms-admin-style-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/djangocms-admin-style-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/djangocms-admin-style-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/djangocms-admin-style-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/djangocms-admin-style/badges/version.svg)](https://anaconda.org/conda-forge/djangocms-admin-style)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/djangocms-admin-style/badges/downloads.svg)](https://anaconda.org/conda-forge/djangocms-admin-style)
+
 Installing djangocms-admin-style
 ================================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/djangocms-admin-style-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/djangocms-admin-style-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/djangocms-admin-style-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/djangocms-admin-style-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/djangocms-admin-style-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/djangocms-admin-style-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/djangocms-admin-style/badges/version.svg)](https://anaconda.org/conda-forge/djangocms-admin-style)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/djangocms-admin-style/badges/downloads.svg)](https://anaconda.org/conda-forge/djangocms-admin-style)
 
 
 Updating djangocms-admin-style-feedstock
