@@ -1,4 +1,4 @@
-{% set version = "1.2.7" %}
+{% set version = "1.2.8" %}
 
 package:
   name: djangocms-admin-style
@@ -7,7 +7,7 @@ package:
 source:
   fn: djangocms-admin-style-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/djangocms-admin-style/djangocms-admin-style-{{ version }}.tar.gz
-  sha256: 59dfe4ac535d6377e010c2e1b5e0dd5296b6177ef38e600d12ce8f19ff11e91f
+  sha256: 7f7452f0d6b9d45f99949e8dd2f7a0fcc242d2134d6cec088ed2b3457e2c7954
 
 build:
   number: 0
