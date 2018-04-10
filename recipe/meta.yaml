@@ -5,18 +5,17 @@ package:
   version: {{ version }}
 
 source:
-  fn: djangocms-admin-style-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/djangocms-admin-style/djangocms-admin-style-{{ version }}.tar.gz
   sha256: 7f7452f0d6b9d45f99949e8dd2f7a0fcc242d2134d6cec088ed2b3457e2c7954
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
 
