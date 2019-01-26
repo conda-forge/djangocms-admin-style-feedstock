@@ -7,7 +7,7 @@ About djangocms-admin-style
 
 Home: http://www.django-cms.org/
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
