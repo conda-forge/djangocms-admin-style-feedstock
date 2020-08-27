@@ -1,4 +1,4 @@
-{% set version = "1.5.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: djangocms-admin-style
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/djangocms-admin-style/djangocms-admin-style-{{ version }}.tar.gz
-  sha256: 47d9868aa448e593ce90059d6542a4d907c120d357cd0561c586f5557e3ba316
+  sha256: 080f55fe2b643cf608ee8feeb1407bf20e1e76c0f2c058a1bf360b4aa0c90cf4
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -28,7 +28,7 @@ about:
   home: http://www.django-cms.org/
   license: BSD-3-Clause
   license_file: LICENSE.txt
-  summary: 'Adds pretty CSS styles for the django CMS admin interface'
+  summary: Adds pretty CSS styles for the django CMS admin interface
 
 extra:
   recipe-maintainers:
