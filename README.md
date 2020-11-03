@@ -5,11 +5,9 @@ Home: http://www.django-cms.org/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/djangocms-admin-style-feedstock/blob/master/LICENSE.txt)
 
 Summary: Adds pretty CSS styles for the django CMS admin interface
-
-
 
 Current build status
 ====================
